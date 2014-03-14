@@ -11,7 +11,7 @@ Get sms object
 
 To get sms instance object use MobilMoneySms class from client module. ::
    from mobilmoney.client import MobilMoneySms
-   sms = MobilMoneySms('+79153601941', u'Message string')
+   sms = MobilMoneySms('+79151232341', u'Message string')
 
 MobilMoneySms need two parameters:
    1. Phone number which you want to send sms
