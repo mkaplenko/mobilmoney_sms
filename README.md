@@ -17,7 +17,7 @@ MobilMoneySms need two parameters:
    1. Phone number which you want to send sms
    2. Sms message 
 
-client = MobilMoneySmsClient('Grishko', 'Lkmzt1WD', 'Grishko')
+client = MobilMoneySmsClient('username', 'password', 'name')
 client.register_sms(sms)
 client.send_sms()
 print(client.answer)
